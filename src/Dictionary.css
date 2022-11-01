@@ -1,0 +1,30 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.search-form-input {
+  min-width: 300px;
+  padding: 5px 10px;
+  border-color: #a393eb;
+  border-radius: 15px;
+  background-color: #a393eb;
+  color: white;
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 13px 25px;
+  font-size: 14px;
+  margin-left: 10px;
+  background-color: #a393eb;
+  border: #a393eb;
+  color: white;
+}
