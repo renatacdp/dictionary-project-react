@@ -4,12 +4,18 @@
   font-style: italic;
 }
 
+.Meaning .definitionsBlock {
+  margin: 0 20px;
+}
+
 .Meaning .definitionsParagraph {
   color: #1b335f;
+  display: block;
+  margin: 20px 0;
 }
 
 .Meaning .definitionsExample {
   color: #c9356c;
   display: block;
-  margin-top: 15px;
+  margin: 10px 0;
 }
