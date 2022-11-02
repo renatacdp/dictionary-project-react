@@ -7,6 +7,12 @@ export default function App() {
       <header className="App-header">Dictionary</header>
       <h1>What word do you want to look up today?</h1>
       <Dictionary />
+      <footer>
+        <a href="https://github.com/renatacdp/dictionary-project-react">
+          Open-source code
+        </a>{" "}
+        by Renata Pinto 👩‍💻
+      </footer>
     </div>
   );
 }

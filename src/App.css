@@ -6,7 +6,11 @@
 
 .App h1 {
   margin: 35px auto;
-  color: #27296d;
+  color: #702283;
+}
+
+.App footer {
+  margin: 100px 0 30px 0;
 }
 
 @media (max-width: 640px) {
