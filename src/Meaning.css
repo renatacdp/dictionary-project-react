@@ -1,0 +1,15 @@
+.Meaning h3 {
+  color: #27296d;
+  size: 20px;
+  font-style: italic;
+}
+
+.Meaning .definitionsParagraph {
+  color: #1b335f;
+}
+
+.Meaning .definitionsExample {
+  color: #c9356c;
+  display: block;
+  margin-top: 15px;
+}
