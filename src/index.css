@@ -1,6 +1,10 @@
 body {
-  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
   line-height: 1.5;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+html {
+  height: 100%;
 }
 
 code {
