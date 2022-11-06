@@ -1,24 +1,42 @@
+.App container {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.App-header,
+h1,
+footer {
+  text-align: center;
+}
+
 .App-header {
-  font-size: 64px;
+  font-size: 90px;
   margin-top: 30px;
   color: #27296d;
+  font-family: "Pacifico", cursive;
 }
 
 .App h1 {
   margin: 35px auto;
   color: #702283;
+  font-size: 40px;
 }
 
 .App footer {
   margin: 60px 0 30px 0;
+  color: #27296d;
+  font-size: 20px;
 }
 
 @media (max-width: 640px) {
   .App-header {
-    font-size: 50px;
+    font-size: 75px;
   }
 
   .App h1 {
-    font-size: 24px;
+    font-size: 35px;
   }
 }

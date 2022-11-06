@@ -1,7 +1,7 @@
 .Meaning h3 {
-  color: #27296d;
-  size: 20px;
-  font-style: italic;
+  color: #702283;
+  font-size: 26px;
+  margin-left: 20px;
 }
 
 .Meaning .definitionsBlock {
@@ -11,11 +11,15 @@
 .Meaning .definitionsParagraph {
   color: #1b335f;
   display: block;
-  margin: 20px 0;
+  margin: 19px;
+  font-size: 20px;
 }
 
 .Meaning .definitionsExample {
-  color: #c9356c;
+  color: #702283;
+  opacity: 80%;
   display: block;
-  margin: 10px 0;
+  margin-left: 20px;
+  font-size: 17px;
+  margin-bottom: 15px;
 }

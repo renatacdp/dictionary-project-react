@@ -3,9 +3,9 @@ import Dictionary from "./Dictionary.js";
 
 export default function App() {
   return (
-    <div className="App">
+    <container className="App">
       <header className="App-header">Dictionary</header>
-      <h1>What word do you want to look up today?</h1>
+      <h1>What word do you want to look up?</h1>
       <Dictionary />
       <footer>
         <a href="https://github.com/renatacdp/dictionary-project-react">
@@ -13,6 +13,6 @@ export default function App() {
         </a>{" "}
         by Renata Pinto 👩‍💻
       </footer>
-    </div>
+    </container>
   );
 }

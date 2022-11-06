@@ -22,16 +22,6 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
 
-  function changeBackground(event) {
-    event.target.style.background = "white";
-    event.target.style.color = "#a393eb";
-  }
-
-  function changeToDefaultBackground(event) {
-    event.target.style.background = "#a393eb";
-    event.target.style.color = "white";
-  }
-
   return (
     <div className="Dictionary">
       <form className="search-form" onSubmit={search}>
@@ -41,12 +31,7 @@ export default function Dictionary() {
           className="search-form-input"
           onChange={handleKeywordChange}
         />
-        <button
-          onMouseOver={changeBackground}
-          onMouseLeave={changeToDefaultBackground}
-        >
-          Search
-        </button>
+        <button>Search</button>
       </form>
       <Results results={results} />
     </div>

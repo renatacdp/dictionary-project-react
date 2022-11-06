@@ -1,8 +1,20 @@
 body {
-  text-align: center;
-  background-color: #f5c7f7;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  line-height: 1.5;
 }
 
 code {
   font-family: "Domine", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #a393eb;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  section {
+    width: 90%;
+  }
 }

@@ -1,5 +1,13 @@
+.Synonyms {
+  text-align: start;
+  color: #702283;
+  opacity: 80%;
+}
+
 .Synonyms li {
-  list-style: none;
   display: inline-block;
-  padding-right: 10px;
+  align-content: center;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 16px;
 }
