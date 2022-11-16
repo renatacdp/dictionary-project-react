@@ -1,3 +1,7 @@
+.App {
+  background-color: #dfe9f3;
+}
+
 .App container {
   max-width: 450px;
   display: flex;
@@ -5,7 +9,6 @@
   justify-content: center;
   align-content: center;
   margin: 0 auto;
-  background: #dfe9f3;
 }
 
 .App-header,
@@ -37,6 +40,7 @@ footer {
 .App .spacing {
   margin-top: 10px;
   color: #dfe9f3;
+  font-size: 0, 1px;
 }
 
 @media (max-width: 640px) {
