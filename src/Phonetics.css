@@ -12,6 +12,7 @@
   border: 1px solid #a393eb;
   background-color: #a393eb;
   color: white;
+  text-decoration: none;
   border-radius: 20px;
   padding: 10px 25px;
   transition: all 150ms ease-in-out;
