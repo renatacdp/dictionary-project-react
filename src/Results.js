@@ -2,6 +2,7 @@ import React from "react";
 import Meaning from "./Meaning";
 import "./Results.css";
 import Phonetics from "./Phonetics";
+import Photos from "./Photos";
 
 export default function Results(props) {
   if (props.results) {
