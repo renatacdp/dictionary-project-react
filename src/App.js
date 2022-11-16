@@ -13,6 +13,7 @@ export default function App() {
         </a>{" "}
         by Renata Pinto 👩‍💻
       </footer>
+      <span className="spacing">space</span>
     </container>
   );
 }

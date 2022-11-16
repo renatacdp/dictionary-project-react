@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin: 0 auto;
+  background: #dfe9f3;
 }
 
 .App-header,
@@ -26,9 +28,15 @@ footer {
 }
 
 .App footer {
-  margin: 60px 0 30px 0;
+  margin: 50px auto;
   color: #27296d;
   font-size: 20px;
+  text-decoration: none;
+}
+
+.App .spacing {
+  margin-top: 10px;
+  color: #dfe9f3;
 }
 
 @media (max-width: 640px) {
