@@ -33,6 +33,15 @@
   cursor: pointer;
 }
 
+.Dictionary section {
+  background: #fcfefe;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  margin: 15px auto;
+  max-width: 500px;
+}
+
 @media (max-width: 640px) {
   .Dictionary .search-form-input {
     min-width: 250px;
