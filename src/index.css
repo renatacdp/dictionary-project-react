@@ -1,9 +1,6 @@
 body {
   line-height: 1.5;
-}
-
-html {
-  height: 100%;
+  background-color: #dfe9f3;
 }
 
 code {
